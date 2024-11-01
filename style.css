@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+#logo {
+width: 100px;
+border-radius: 70px;
+}
+
+body {
+background:#B8001F;
+color: #507687;
+  font-family: 'Fira Code', monospace;
+font-size: 10px;
+font-weight: bold;
+}
+
+h1 {
+color: #507687;
+font-size: 20px;
+}
+
+h1, h2 {
+font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+color: #507687;
+font-size: 18px;
+font-weight: Lighter;
+}
+
+a {
+text-decoration: none;
+color: #B8001F;
+font-weight: bold;
+}
+a:hover{
+text-decoration: underline;
+color: #507687;
+}
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+  width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+  width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+  width: 400px;
+  }
+}
+
+.card-white{
+background: #FFFFFF;
+padding: 50px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+margin: 15px 0px;
+text-align: center;
+}
+.btn {
+background-color: #B8001F;
+color: #FCFAEE;
+padding: 10px 15px;
+border-radius: 5px;
+}
+.btn:hover {
+background-color: #384B70;
+color: #FCFAEE;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+.list-inline i {
+font-size: 50px;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
